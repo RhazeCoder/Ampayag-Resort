@@ -1,0 +1,128 @@
+.pricing-col-container {
+  margin-bottom: 20px;
+}
+
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pricing .row-container {
+  /*display: flex;*/
+}
+
+.pricing-container h1, .pricing-container h2, .pricing-container h3 {
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.pricing-container, .pricing-container div {
+  border: 3px solid #fff;
+  border-bottom: none;
+}
+
+.pricing-container {
+  background: #fff;
+  padding: 0 5px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--bs-secondary);
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.ribbon {
+  background-color: var(--bs-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.6em;
+  display: inline-block;
+  padding: 50px 40px 10px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -40px;
+  left: -70px;
+}
+
+.pricing-container, .pricing-container::before, .picing-container::after {
+  box-sizing: border-box;
+}
+
+.pricing-heading {
+  padding: 20px 0;
+}
+
+.pricing-nav {
+  width: 100%;
+  height: 100%;
+  font-size: 0.87em;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .pricing-nav {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+}
+
+.pricing-header::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: var(--bs-secondary-bg-subtle);
+  display: block;
+  margin-top: 20px;
+}
+
+.pricing-header h2 {
+  font-size: 1.25em;
+}
+
+.pricing-header h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.pricing-header h3 small {
+  font-size: .5em;
+  text-transform: lowercase;
+}
+
+.pricing-header h3 sup {
+  font-size: .5em;
+  font-weight: 400;
+  display: inline-block;
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.pricing-body ul li {
+  padding: 8px 0;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.pricing-footer .signup {
+  padding: 10px 40px;
+  color: #fff;
+  background: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0;
+  border-bottom: 3px solid #e5b21f;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+}
+
+.pricing-footer .signup:hover {
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  border-bottom: 3px solid transparent;
+}
+

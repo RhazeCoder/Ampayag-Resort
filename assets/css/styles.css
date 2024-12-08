@@ -1,0 +1,152 @@
+#navbar-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#sub-titile {
+  font-size: large;
+}
+
+#tagline {
+  font-size: x-large;
+  text-shadow: 3px 3px 8px var(--bs-dark);
+}
+
+.activity-item {
+  padding: 0 10px;
+}
+
+.service-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 95px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  #tagline {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .activity-item {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container {
+    padding: 0 10%;
+  }
+}
+
+.activity-item {
+}
+
+#contact-list li, #social-list li {
+  color: var(--bs-warning-bg-subtle);
+  margin-bottom: 10px;
+}
+
+#contact-list li strong, #social-list li strong {
+  color: var(--bs-secondary-bg-subtle);
+}
+
+.contact-title {
+  color: #fff;
+}
+
+#about p, #about li {
+  text-align: justify;
+  font-size: 1.25em;
+  color: var(--bs-gray-700);
+}
+
+#about h3 {
+  color: var(--bs-gray-800);
+  text-align: center;
+}
+
+.about-item {
+  margin-bottom: 50px;
+}
+
+.about-resort-container {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-awards-container h3 {
+  align-self: center;
+}
+
+.about-awards-container {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .about-awards-container {
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-resort-container {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#background-of-owner {
+  border-top: 1px solid var(--bs-secondary);
+  width: fit-content;
+  padding: 25px 40px 50px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  #background-of-owner {
+    border-top: 1px solid var(--bs-secondary);
+    width: fit-content;
+    padding: 25px 0 50px;
+    align-self: center;
+  }
+}
+
+#bgo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
